@@ -1,0 +1,13 @@
+//Esse será o mais comum de ser usado
+//node_module não deve estar no git por ser muito pesada.
+
+$corPrincipal: red;
+$corDoTexto: gray;
+
+body {
+    background-color: $corPrincipal;
+}
+
+h3 {
+    color: $corDoTexto;
+}
