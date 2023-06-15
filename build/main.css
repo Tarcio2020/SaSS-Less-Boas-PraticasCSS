@@ -1,9 +1,24 @@
 body {
-  background-color: red;
+  background-color: #eee;
 }
 
-h3 {
-  color: gray;
+header {
+  background-color: #eee;
+}
+header h3 {
+  color: #111;
+}
+
+button {
+  padding: 16px;
+  background-color: #111;
+  color: #eee;
+}
+button:hover {
+  background-color: yellow;
+}
+button.sucesso {
+  background-color: greenyellow;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,13 +1,33 @@
 //Esse será o mais comum de ser usado
 //node_module não deve estar no git por ser muito pesada.
+// & faz referencia ao próprio seletor
 
-$corPrincipal: red;
-$corDoTexto: gray;
+
+$corPrincipal: #eee;
+$corDoTexto: #111;
 
 body {
     background-color: $corPrincipal;
 }
 
-h3 {
-    color: $corDoTexto;
+header {
+    background-color: $corPrincipal;
+   
+    h3 {
+        color: $corDoTexto;
+    }
+}
+
+button {
+    padding: 16px;
+    background-color: $corDoTexto;
+    color: $corPrincipal;
+
+    &:hover {
+        background-color: yellow;
+    }
+
+    &.sucesso {
+        background-color: greenyellow;
+    }
 }
