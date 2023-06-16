@@ -29,5 +29,13 @@
     "source-map-js": "^1.0.2",
     "to-regex-range": "^5.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarcio2020/SaSS-Less-BoasPraticasCSS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tarcio2020/SaSS-Less-BoasPraticasCSS/issues"
+  },
+  "homepage": "https://github.com/Tarcio2020/SaSS-Less-BoasPraticasCSS#readme",
   "description": ""
 }
