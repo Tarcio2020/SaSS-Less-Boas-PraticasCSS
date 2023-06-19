@@ -1,10 +1,10 @@
-# SaSS-Less-BoasPraticasCSS
+# Sass
 
 Instalar a extensão Sass no VS Code.
 
-npm init
+  npm init
 
-npm i --save-dev sass
+  npm i --save-dev sass
 
 //Cria node_modules
 
@@ -35,13 +35,14 @@ Organização:
 Crie:
 
 uma Pasta build
-  main.css
+
+    main.css
     main.css.map
 
 e
 
-Pasta source<br>
-  main.scss<br><br>
+Pasta source
+  main.scss
   
 Criando os arquivos da pasta build automaticamente.
 
