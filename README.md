@@ -1,44 +1,53 @@
 # SaSS-Less-BoasPraticasCSS
 
-Instalar a extensão Sass no VS Code.<br>
+Instalar a extensão Sass no VS Code.
 
-npm init<br>
+npm init
 
-npm i --save-dev sass<br>
-//Cria node_modules<br><br><br>
+npm i --save-dev sass
 
-Crie uma pasta .gitignore <br>
-coloque o nome das pastas que deseja ignora no GIT dentro do arquivo ex: node_modules<br><br><br>
+//Cria node_modules
 
-Vamos no arquvo >> package.json <<<br>
-Na parte "scripts"<br>
-"scripts": "sass",<br>
+Crie uma pasta 
+  
+  .gitignore
 
-npm run sass<br><br>
+coloque o nome das pastas que deseja ignora no GIT dentro do arquivo ex: node_modules
 
-Definir os arquivos de Entrada e Saída...<br>
-npm run sass main.scss main.scss<br><br>
+Vamos no arquvo >> package.json
 
-coloque link html-css<br><br><br>
+  Na parte "scripts"
+  "scripts": "sass",
+
+  npm run sass
+
+Definir os arquivos de Entrada e Saída...
+  npm run sass main.scss main.scss
+
+coloque link html-css
 
 
 
-OU<br><br>
+ou
 
-Organização:<br><br>
-Crie:<br>
-uma Pasta build <br>
-  main.css<br>
-    main.css.map<br>
-e<br>
+Organização:
+
+Crie:
+
+uma Pasta build
+  main.css
+    main.css.map
+
+e
+
 Pasta source<br>
   main.scss<br><br>
   
-Criando os arquivos da pasta build automaticamente.<br><br>
+Criando os arquivos da pasta build automaticamente.
 
-Vamos no arquvo >> package.json <<<br>
-Na parte "scripts"<br>
-"scripts": "sass source/main.scss build/main.css",<br>
+Vamos no arquvo >> package.json 
+  Na parte "scripts"
+  "scripts": "sass source/main.scss build/main.css",
 
 
 
