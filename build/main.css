@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.produto {
+  background-color: green;
+}
+
+body {
+  background-color: #eee;
+}
+
+/*
+$corPrincipal: #eee;
+$corDoTexto: #111;
+
+body {
+    background-color: $corPrincipal;
+}
+
+header {
+    background-color: $corPrincipal;
+
+    h3 {
+        color: $corDoTexto;
+    }
+}
+
+button {
+    padding: 16px;
+    background-color: $corDoTexto;
+    color: $corPrincipal;
+
+    &:hover {
+        background-color: yellow;
+    }
+
+    &.sucesso {
+        background: green;
+    }
+}
+*/
+
+/*# sourceMappingURL=main.css.map */
